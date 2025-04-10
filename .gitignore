@@ -172,3 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Model files 
+assets/models/*.safetensors
+assets/models/*.ckpt
+assets/models/*.bin
+
+# Images 
+src/assets/outputs
