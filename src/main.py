@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from generator.texture_creator import generate_texture
+# from generator.texture_creator import generate_texture
+from generator.texture_creator_v1 import generate_texture
 import uvicorn
 import os
 import base64
