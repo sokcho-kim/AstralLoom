@@ -6,3 +6,4 @@ Pillow
 streamlit
 accelerate
 scipy
+uvicorn
