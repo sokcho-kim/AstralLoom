@@ -4,7 +4,7 @@ import sys
 import os
 
 # 현재 파일 기준으로 상위 src 경로를 PYTHONPATH에 추가
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../")))
 
 from generator.stable_generator import StableTextureGenerator
 from generator.dreammat_generator import DreamMatGenerator
